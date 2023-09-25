@@ -611,8 +611,14 @@ a {
 
 .footer .row .column .social {
   display: flex;
-  width: 117px;
-  justify-content: space-between;
+}
+
+.footer .social-link {
+  margin-right: 16px;
+}
+
+.footer .social-link:last-child {
+  margin-right: 0;
 }
 
 .footer .row .column .social .social-link {
