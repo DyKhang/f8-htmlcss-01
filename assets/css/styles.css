@@ -157,8 +157,20 @@ a {
 .clients .images {
   display: flex;
   align-items: center;
-  margin-top: 96px;
+  margin-top: 70px;
   justify-content: space-between;
+}
+
+.clients .images a {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  padding: 0 41px;
+  border-radius: 12px;
+}
+
+.clients .images a:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 20px;
 }
 
 /* Guides */
@@ -610,10 +622,7 @@ a {
   width: 28px;
   height: 28px;
   border-radius: 3px;
-}
-
-.footer .row .column .social .social-link:hover {
-  background-color: #ebebeb;
+  background-color: #f9f9f9;
 }
 
 .footer .row-bottom {
